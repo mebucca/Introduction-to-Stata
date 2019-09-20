@@ -3,4 +3,4 @@ This repository contains the material for the class "Introduction to Data Analys
 
  - You can find the syllabus of the class [here](Syllabus.pdf)
  - For additional help on Stata commands check the ["Stata cheat sheets"](https://geocenter.github.io/StataTraining/portfolio/01_resource/)
- - Excellent Stata tutorial [here](https://stats.idre.ucla.edu/stata/)
+ - Excellent collection of Stata tutorials [here](https://stats.idre.ucla.edu/stata/)
