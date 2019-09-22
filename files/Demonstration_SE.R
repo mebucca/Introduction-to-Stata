@@ -1,3 +1,5 @@
+# This code is a demonstration of what the Standard Error of an average is: the standard deviation of the estimate of the mean 
+# across "infinite" samples. 
 
 set.seed(13232)
 
@@ -8,14 +10,14 @@ n = 500
 
 
 
-# A random sample of dice throws 
+# Our sample: a random sample of dice throws 
 
 our_sample <- sample(x = 1:6, size = n, replace = TRUE)
 plot(table(our_sample), xlab = 'Values', ylab = 'Frequency', main = '500 Rolls of 1 Fair Dice')
 mean(our_sample)
 
 
-#  Demonstration of the distrution of mu_hat
+#  Demonstration of the distrution of mu_hat across 1000 samples.
 
 mues_hat = NULL
 
