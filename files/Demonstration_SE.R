@@ -4,7 +4,7 @@
 set.seed(13232)
 
 # Theoretical parameters
-mu
+mu = 3.5
 sigma = (105/36)^(1/2)
 n = 500
 
