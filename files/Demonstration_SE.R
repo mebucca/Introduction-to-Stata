@@ -3,14 +3,15 @@
 
 set.seed(13232)
 
-# Theoretical parameters
+# Theoretical parameters for the random variable X: "rolling a fair dice"
 mu = 3.5
 sigma = (105/36)^(1/2)
-n = 500
 
 
 
 # Our sample: a random sample of dice throws 
+
+n = 500
 
 our_sample <- sample(x = 1:6, size = n, replace = TRUE)
 plot(table(our_sample), xlab = 'Values', ylab = 'Frequency', main = '500 Rolls of 1 Fair Dice')
