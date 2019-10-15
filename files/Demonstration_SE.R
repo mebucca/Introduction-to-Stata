@@ -18,7 +18,7 @@ plot(table(our_sample), xlab = 'Values', ylab = 'Frequency', main = '500 Rolls o
 mean(our_sample)
 
 
-#  Demonstration of the distrution of mu_hat across 1000 samples.
+#  Demonstration of the distrution of mu_hat across 1000 samples of size n.
 
 mues_hat = NULL
 
